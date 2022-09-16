@@ -1,0 +1,25 @@
+html {
+    text-align: center;
+}
+
+img {max-width: 75%;
+}
+
+/* Header styling */
+header {
+   text-align: center;
+}
+
+/* Navbar styling  */
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+/* Style the topnav links */
+.topnav a {
+    text-align: center;
+    padding: 14px 16px;
+}
