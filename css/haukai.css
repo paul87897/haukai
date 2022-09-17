@@ -23,3 +23,8 @@ header {
     text-align: center;
     padding: 14px 16px;
 }
+
+/* Responsive width for the Contact page Google Maps embed */
+@media screen and (max-width:750px) {
+    iframe.map {width: 100%;}
+}
