@@ -24,7 +24,9 @@ header {
     padding: 14px 16px;
 }
 
-/* Responsive width for the Contact page Google Maps embed */
+/* Responsive width for the Contact page Google Maps, and Hours page Google Calendar, embeds */
 @media screen and (max-width:750px) {
-    iframe.map {width: 100%;}
+    iframe {width: 100%;}
 }
+
+/*
