@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+    }
+
 html {
     text-align: center;
 }
 
-img {max-width: 75%;
+img {
+    max-width: 75%;
 }
 
 /* Header styling */
@@ -29,4 +34,20 @@ header {
     iframe {width: 100%;}
 }
 
-/*
+/* Styling for the menu items on the Menu page */
+.dish {
+    float:left;
+    background-color: rgb(177, 247, 209);
+    width: 50%;
+    border-style: ridge;
+}
+
+@media screen and (max-width:750px) {
+    .dish {width:100%;}
+}
+
+.mensect:after {
+    content: "";
+    display: table;
+    clear: both;
+}
