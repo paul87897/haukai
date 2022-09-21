@@ -1,2 +1,2 @@
 # haukai
-Mock website for fictional website
+Mock website for fictional restaurant
